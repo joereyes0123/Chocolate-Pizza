@@ -1,0 +1,49 @@
+body{
+  position: absolute;
+  background-color: #ffffff;
+  width: 900px;
+ 
+}
+
+header{
+  display: block;
+}
+
+header ul li{
+  color: rgb(39, 39, 204);
+  padding: 2px;
+  float: right;
+  list-style: none;
+}
+.ingredients{
+  display: inline-block;
+  background-image: url("img/list-bg.png");
+
+}
+#column1 {
+  list-style-type: circle;
+  list-style-position: inside;
+  width: 890px;
+}
+
+#column2 {
+  list-style-type: circle;
+  list-style-position: inside;
+  float: right;
+}
+
+
+p {
+  position: relative ;
+}
+
+h2{
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+}
+
+button{
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 8px;
+}
