@@ -1,49 +1,102 @@
 body{
-  position: absolute;
+  position: relative;
   background-color: #ffffff;
   width: 900px;
+  left:250px;
+  margin:20px;
  
 }
 
+
 header{
-  display: block;
+  position: relative;
+  border-bottom-style: solid;
+  border-width: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  border-color: black;
 }
 
-header ul li{
-  color: rgb(39, 39, 204);
-  padding: 2px;
+#online{
+  padding: 0px 0px 0px 6px;
+}
+
+#delicious{
+  font-family: 'Yellowtail', cursive;
+  position: relative;
+  font-size: 28px;
+  bottom: 65px;
+  left: 30px;
+}
+#bestfood{
+  position:relative;
+  font-size: 15px;
+  bottom: 98px;
+  left: 31px;
+}
+
+header nav ul li{
+  display: inline-block;
   float: right;
-  list-style: none;
+  
+}
+
+#post{
+  position: relative;
+  font-size: 10;
+  color: rgb(77, 67, 68);
+  bottom:20px;
+}
+
+#instruct{
+  text-indent: 40px;
+
 }
 .ingredients{
-  display: inline-block;
   background-image: url("img/list-bg.png");
-
+  font-size: 18px;
+  height: 300px;
 }
-#column1 {
+.ingredients ul li{
   list-style-type: circle;
-  list-style-position: inside;
-  width: 890px;
+  padding: 4px; 
 }
 
-#column2 {
-  list-style-type: circle;
-  list-style-position: inside;
-  float: right;
+#column1{
+  
+  padding: 4px;
+  position:relative;
+  top: 38px;
+  left: 100px;
+}
+#column2{
+  
+  padding: 4px;
+  position:relative;
+  bottom:180px;
+  left:450px;
 }
 
 
-p {
-  position: relative ;
-}
+main{
+  background-color: rgb(255, 255, 255);
 
-h2{
-  font-family: 'Yellowtail', cursive;
-  font-size: 40px;
 }
-
+footer{
+  background-color: aqua;
+}
 button{
-  color: rgb(255, 255, 255);
-  background: rgb(0, 0, 0);
-  padding: 8px;
+  position: relative;
+  float: right;
+  bottom: 150px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(121, 71, 10);
 }
+#vannessa{
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+
